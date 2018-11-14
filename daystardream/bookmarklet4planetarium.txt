@@ -1,0 +1,1 @@
+javascript:(function()%7Bvar%20p=location.href.split('?')%5B0%5D.split('/');for(var%20i=0;i%3Cp.length;i++)%7Bif(p%5Bi%5D.match(/%5E@/))%7Bvar%20lt=p%5Bi%5D;lt=lt.substr(1);lt=lt.substr(0,lt.length-1);window.open('https://localhost:8080/'+lt.split(',')%5B0%5D+'/'+lt.split(',')%5B1%5D+'/','_blank');%7D%7D%7D)();
